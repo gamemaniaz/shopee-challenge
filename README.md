@@ -13,3 +13,6 @@ I attempted to handle the classification using Multinomial Naive Bayes and Linea
 Initially, I used a simple sequential model with some Dense layers with normalisation and dropouts, but I soon realised that these models plateaued off at around 0.7 accuracy very quickly.
 
 Then, I used LSTM to handle the classification, which gave better results probably due to the handling of the vanishing gradient I assume - I have yet to truly understand why it works better. Still, there is room for improvement. The LSTM overfitted to the training set, and from there I realised more regularization should be in place. Also, due to a bad configuration of the model checkpoint saving, I did not manage to compare training accuracy with validation accuracy at every iteration (epoch). More ideally, I would select the model weights at the point where the training and validation accuracies start to cross over.
+
+# Files
+The relevant files are the two ipython notebooks: Shopee NN.ipynb and Shopee.ipynb
