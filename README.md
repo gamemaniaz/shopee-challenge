@@ -1,5 +1,5 @@
 # Shopee Challenge (Beginner Category)
-This repository contains the models I have used for the NDSC Shopee Challenge. I actually registered for the advanced challenge, but due to time constraints, I decided to work on the beginner category which was less time consuming to study and implement. I submitted under a friend's team "Small Data" in the beginner category, as I am not actually in that category of the competition.
+This repository contains the models I have used for the NDSC Shopee Challenge. I actually registered for the advanced challenge, but due to time constraints, I decided to work on the beginner category which was less time consuming to study and implement. I submitted under a friend's team "Small Data" in the beginner category, as I am not actually in that category of the competition. Score: 0.73959 and Ranking: 131 / 298 of public leaderboard.
 
 Due to time constraints, I skipped the EDA by looking at the public kernel, https://www.kaggle.com/chewzy/eda-for-ndsc-2019. The data for the beginner category was straightforward to use, as it only contained the title and the images. According to the EDA, the title alone was a decent enough feature to predict the labels, but more could be done with image feature extraction for the fashion categories.
 
